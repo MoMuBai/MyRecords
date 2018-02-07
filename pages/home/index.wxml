@@ -1,10 +1,53 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
+  <!-- <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称   </button>
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
-  </view>
+  </view> -->
+  <scroll-view scroll-y="true" scroll-with-animation = "trues" enable-back-to-top = "true" style="height: 100%;">
+  <view>楼盘</view>
+   <view>楼盘</view>
+    <view>楼盘</view>
+     <view>楼盘</view>
+     <view>楼盘</view>
+     <view>楼盘</view>
+     <view>楼盘</view>
+      <view>楼盘</view>
+   <view>楼盘</view>
+    <view>楼盘</view>
+     <view>楼盘</view>
+     <view>楼盘</view>
+     <view>楼盘</view>
+     <view>楼盘</view>
+      <view>楼盘</view>
+   <view>楼盘</view>
+    <view>楼盘</view>
+     <view>楼盘</view>
+     <view>楼盘</view>
+     <view>楼盘</view>
+     <view>楼盘</view>
+      <view>楼盘</view>
+   <view>楼盘</view>
+    <view>楼盘</view>
+     <view>楼盘</view>
+     <view>楼盘</view>
+     <view>楼盘</view>
+     <view>楼盘</view>
+       <view>楼盘</view>
+    <view>楼盘</view>
+     <view>楼盘</view>
+     <view>楼盘</view>
+     <view>楼盘</view>
+     <view>楼盘</view>
+      <view>楼盘</view>
+   <view>楼盘</view>
+    <view>楼盘</view>
+     <view>楼盘</view>
+     <view>楼盘</view>
+     <view>楼盘</view>
+     <view>楼盘</view>
+  </scroll-view>
 </view>

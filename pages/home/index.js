@@ -4,6 +4,8 @@ const app = getApp()
 var flag = true
 Page({
   data: {
+    toView: 'red',
+    scrollTop: 0,
     login: '登录',
     register: '注册',
     userInfo: {},

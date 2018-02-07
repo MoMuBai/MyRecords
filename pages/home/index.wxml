@@ -7,8 +7,4 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <view class="index-layout">
-    <text catchtap="click_login" class='index-text'>{{login}}      </text>
-    <text catchtap='click_register'class='index-text'>{{register}}</text>
-  </view>
 </view>

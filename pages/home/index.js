@@ -5,28 +5,22 @@ var flag = true
 Page({
   data: {
     login: '登录',
-    register:'注册',
+    register: '注册',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数
-  bindViewTap: function() {
+  bindViewTap: function () {
     wx.navigateTo({
-      url: '../login/login'
+      url: '../logs/logs'
     })
   },
-  click_login:function(){
+  click_login: function () {
     wx.navigateTo({
       url: '../login/login',
     })
     console.log("点击了登录")
-  },
-  click_register:function(){
-    wx.navigateTo({
-      url: '../register/register',
-    })
-    console.log("点击了注册")
   },
   onLoad: function () {
     if (app.globalData.userInfo) {
@@ -34,7 +28,7 @@ Page({
         userInfo: app.globalData.userInfo,
         hasUserInfo: true
       })
-    } else if (this.data.canIUse){
+    } else if (this.data.canIUse) {
       // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
       // 所以此处加入 callback 以防止这种情况
       app.userInfoReadyCallback = res => {
@@ -56,7 +50,7 @@ Page({
       })
     }
   },
-  getUserInfo: function(e) {
+  getUserInfo: function (e) {
     console.log(e)
     app.globalData.userInfo = e.detail.userInfo
     this.setData({

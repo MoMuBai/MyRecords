@@ -1,0 +1,7 @@
+.login-text {
+  color: #aaa;
+}
+.login-btn {
+  color: #aaa;
+  padding: 40rpx;
+}

@@ -16,6 +16,12 @@
   color: #aaa;
 }
 
-.usermotto {
+.index-layout {
   margin-top: 200px;
+}
+
+.index-text{
+  color:#D23933;
+  margin-left: 30px;
+  margin-right: 30px;
 }

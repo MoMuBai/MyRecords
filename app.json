@@ -2,12 +2,14 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/login/login"
+    "pages/login/login",
+    "pages/register/register"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "MyRecords",
     "navigationBarTextStyle":"black"
-  }
+  },
+  "debug":false
 }

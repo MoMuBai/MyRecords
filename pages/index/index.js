@@ -1,10 +1,11 @@
 //index.js
 //获取应用实例
 const app = getApp()
-
+var flag = true
 Page({
   data: {
-    motto: 'Hello World',
+    login: '登录',
+    register:'注册',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
@@ -14,6 +15,18 @@ Page({
     wx.navigateTo({
       url: '../login/login'
     })
+  },
+  click_login:function(){
+    wx.navigateTo({
+      url: '../login/login',
+    })
+    console.log("点击了登录")
+  },
+  click_register:function(){
+    wx.navigateTo({
+      url: '../register/register',
+    })
+    console.log("点击了注册")
   },
   onLoad: function () {
     if (app.globalData.userInfo) {

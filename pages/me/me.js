@@ -62,5 +62,47 @@ Page({
    */
   onShareAppMessage: function () {
     
-  }
+  },
+
+  /**
+   * 我的头像
+   */
+  myHeads:function(){
+    console.log("我的头像")
+  },
+
+  /**
+   * 我关注的
+   */
+  myCollection:function(){
+      console.log("我关注的")
+  },
+
+  /**
+   * 看房记录
+   */
+  myRecords: function () {
+    console.log("看房记录")
+  },
+
+  /**
+   * 浏览足迹
+   */
+  myFoots: function () {
+    console.log("浏览足迹")
+  },
+
+  /**
+  * 我的卡券
+  */
+  myCards: function () {
+    console.log("我的卡券")
+  },
+
+  /**
+  * 设置
+  */
+  mySets: function () {
+    console.log("设置")
+  },
 })

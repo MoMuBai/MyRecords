@@ -4,7 +4,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    img_src:'http://img.zcool.cn/community/01690955496f930000019ae92f3a4e.jpg@2o.jpg',
+    mode: 'scaleToFill',
   },
 
   /**

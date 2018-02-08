@@ -8,46 +8,46 @@
     </block>
   </view> -->
   <scroll-view scroll-y="true" scroll-with-animation = "trues" enable-back-to-top = "true" style="height: 100%;">
-  <view>楼盘</view>
-   <view>楼盘</view>
     <view>楼盘</view>
-     <view>楼盘</view>
-     <view>楼盘</view>
-     <view>楼盘</view>
-     <view>楼盘</view>
       <view>楼盘</view>
-   <view>楼盘</view>
-    <view>楼盘</view>
-     <view>楼盘</view>
-     <view>楼盘</view>
-     <view>楼盘</view>
-     <view>楼盘</view>
       <view>楼盘</view>
-   <view>楼盘</view>
-    <view>楼盘</view>
-     <view>楼盘</view>
-     <view>楼盘</view>
-     <view>楼盘</view>
-     <view>楼盘</view>
+        <view>楼盘</view>
+        <view>楼盘</view>
+        <view>楼盘</view>
+        <view>楼盘</view>
+        <view>楼盘</view>
       <view>楼盘</view>
-   <view>楼盘</view>
-    <view>楼盘</view>
-     <view>楼盘</view>
-     <view>楼盘</view>
-     <view>楼盘</view>
-     <view>楼盘</view>
-       <view>楼盘</view>
-    <view>楼盘</view>
-     <view>楼盘</view>
-     <view>楼盘</view>
-     <view>楼盘</view>
-     <view>楼盘</view>
       <view>楼盘</view>
-   <view>楼盘</view>
-    <view>楼盘</view>
-     <view>楼盘</view>
-     <view>楼盘</view>
-     <view>楼盘</view>
-     <view>楼盘</view>
+        <view>楼盘</view>
+        <view>楼盘</view>
+        <view>楼盘</view>
+        <view>楼盘</view>
+        <view>楼盘</view>
+      <view>楼盘</view>
+      <view>楼盘</view>
+        <view>楼盘</view>
+        <view>楼盘</view>
+        <view>楼盘</view>
+        <view>楼盘</view>
+        <view>楼盘</view>
+      <view>楼盘</view>
+      <view>楼盘</view>
+        <view>楼盘</view>
+        <view>楼盘</view>
+        <view>楼盘</view>
+        <view>楼盘</view>
+          <view>楼盘</view>
+      <view>楼盘</view>
+        <view>楼盘</view>
+        <view>楼盘</view>
+        <view>楼盘</view>
+        <view>楼盘</view>
+        <view>楼盘</view>
+      <view>楼盘</view>
+      <view>楼盘</view>
+        <view>楼盘</view>
+        <view>楼盘</view>
+        <view>楼盘</view>
+        <view>楼盘</view>
   </scroll-view>
 </view>

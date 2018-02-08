@@ -1,6 +1,28 @@
-<view class="container">
-  <view class="login-text">
-  <text class="login-text">登录</text>
-  <text class="login-text">请填写用户名密码登录</text>
+<view>
+  <view class='me-image-layout'>
+  <image class = 'me-image-head'src='{{img_src}}' mode="{{mode}}">
+  </image>
+  </view>
+   <view class='me-text-number'><text>18757555795</text>
+  </view>
+  <view class='me-text-layout'>
+  <image class='me-image-text'src='/images/ic_replay_hui.png'></image>  
+  <text class='me-text'>我关注的</text>
+  </view>
+   <view class='me-text-layout'>
+   <image class='me-image-text'src='/images/ic_replay_hui.png'></image> 
+   <text class='me-text'>看房记录</text>
+  </view>
+  <view class='me-text-layout'>
+  <image class='me-image-text'src='/images/ic_replay_hui.png'></image> 
+  <text class='me-text'>浏览足迹</text>
+  </view>
+  <view class='me-text-layout'>
+  <image class='me-image-text'src='/images/ic_replay_hui.png'></image> 
+  <text class='me-text'>我的卡券</text>
+  </view>
+  <view class='me-text-layout'>
+  <image class='me-image-text'src='/images/ic_replay_hui.png'></image> 
+  <text class='me-text'>设置</text>
   </view>
 </view>

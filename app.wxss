@@ -1,9 +1,15 @@
 /**app.wxss**/
 .container {
   height: 100%;
+  width: 100%;
+  /* flex布局 */
   display: flex;
+  /* 竖着排列或横向排列 */
   flex-direction: column;
+  /* 项目在交叉轴的对齐方式 */
   align-items: center;
-  justify-content: space-between;
+  background-color: #FFFFFF;
+  /* 项目在主轴上的对齐方式 */
+  justify-content: center;
   box-sizing: border-box;
 } 
